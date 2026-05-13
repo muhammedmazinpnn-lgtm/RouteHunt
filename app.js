@@ -341,21 +341,24 @@ function renderDests() {
   grid.innerHTML = DESTS.map((d, i) => `
     <div class="dest-card" onclick="openTrip(${i})">
       <img
-        src="https://picsum.photos/seed/${d.seed}/480/600"
+        src="${d.image}"
         alt="${d.name}"
         loading="lazy"
-        onerror="this.src='https://picsum.photos/seed/${d.seed + 500}/480/600'"
       >
+
       <div class="card-overlay"></div>
+
       <div class="card-train">
         <span style="flex-shrink:0">🚆</span>
         <span>${d.station}</span>
       </div>
+
       <div class="card-content">
         <div class="card-tag">${d.tag}</div>
         <div class="card-name">${d.name}</div>
         <div class="card-meta">📍 ${d.region}</div>
       </div>
+
       <button class="card-plan-btn" onclick="event.stopPropagation(); openTrip(${i})">
         Plan Trip →
       </button>
