@@ -236,18 +236,8 @@ nav {
   padding: 120px 24px 80px;
   position: relative;
   overflow: hidden;
+  background: #ffffff;
   perspective: 900px;
-
-  background:
-    linear-gradient(
-      rgba(255,255,255,0.72),
-      rgba(255,255,255,0.72)
-    ),
-    url('Gemini_Generated_Image_gkzb5zgkzb5zgkzb.png');
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; 
 }
 
 /* Dot grid background */
