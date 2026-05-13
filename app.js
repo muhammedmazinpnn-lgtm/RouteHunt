@@ -11,7 +11,7 @@ const DESTS = [
     seed: 683,
     station: 'Madgaon (Margao) Railway Station',
     tip: 'Konkan Railway connects Goa from Mumbai (8 hrs), Bangalore & Delhi. Goa Express & Rajdhani run regularly.',
-    Image: 'c:\Users\Lenovo\Desktop\projects\Travel\RouteHunt\Goa Tourism.jpg'
+    Image: 'images/Goa Tourism.jpg'
   },
   {
     name: 'Rajasthan',
