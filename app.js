@@ -10,7 +10,8 @@ const DESTS = [
     tag: 'Beaches',
     seed: 683,
     station: 'Madgaon (Margao) Railway Station',
-    tip: 'Konkan Railway connects Goa from Mumbai (8 hrs), Bangalore & Delhi. Goa Express & Rajdhani run regularly.'
+    tip: 'Konkan Railway connects Goa from Mumbai (8 hrs), Bangalore & Delhi. Goa Express & Rajdhani run regularly.',
+    Image: 'RouteHunt/Goa Tourism.jpg'
   },
   {
     name: 'Rajasthan',
